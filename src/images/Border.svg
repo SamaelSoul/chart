@@ -1,0 +1,12 @@
+<svg width="20" height="650" xmlns="http://www.w3.org/2000/svg">
+
+  <line stroke="#c1c3c8" stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_1" y2="333.453125" x2="290.809629" y1="57.453125" x1="290.986099" stroke-width="1.5" fill="none"/>
+  <line stroke="#c1c3c8" stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_3" y2="194.972434" x2="290.368453" y1="194.972427" x1="269.191982" fill-opacity="null" stroke-width="1.5" fill="none"/>
+  <line stroke="#000" stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_4" y2="52.03125" x2="292.721393" y1="52.03125" x1="310.368452" fill-opacity="null" stroke-opacity="null" stroke-width="1.5" fill="none"/>
+  <path d="m293.248428,52.079201c0,0 0,-0.198017 -0.198013,-0.198017c-0.198013,0 -0.396042,0 -0.594055,0c-0.396042,0 -0.652069,-0.140015 -0.792084,0c-0.140015,0.140018 -0.198013,0.198017 -0.396042,0.198017c-0.198013,0 -0.256012,0.057995 -0.396042,0.198021c-0.140015,0.140022 0,0.396038 0,0.594059c0,0.198021 0,0.396038 0,0.594059c0,0.198021 0,0.396038 0,0.594059c0,0.198021 0,0.396042 0,0.594059c0,0.198021 0,0.396042 0,0.594059c0,0.198021 0,0.396042 0,0.594059c0,0.198021 0,0.396042 0,0.594063c0,0.198017 0,0.396038 0,0.594059c0,0.198017 0,0.396038 0,0.594059l0,0.198017" id="svg_18" fill-opacity="null" stroke-width="1.5" stroke="#c1c3c8" fill="none"/>
+  <line stroke="#c1c3c8" stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_19" y2="336.426893" x2="293.160954" y1="336.426893" x1="310.808013" fill-opacity="null" stroke-width="1.5" fill="none"/>
+  <path d="m291.024582,332.747284c0,0 0,0 0,0.219788c0,0.219788 0,0.439575 0,0.659332c0,0.219788 0,0.439575 0,0.659363c0,0.219788 -0.155411,0.503906 0,0.659332c0.155396,0.155396 0.219788,0.439575 0.43956,0.659332c0.219788,0.219788 0.43956,0.439575 0.659332,0.439575c0.219788,0 0.219788,0.219788 0.43956,0.219788c0.219788,0 0.43956,0 0.659348,0l0.219772,0" id="svg_24" fill-opacity="null" stroke-width="1.5" stroke="#c1c3c8" fill="none"/>
+  <line stroke="#c1c3c8" stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_25" y2="52.03125" x2="292.721393" y1="52.03125" x1="310.368452" fill-opacity="null" stroke-width="1.5" fill="none"/>
+  <line stroke="#c1c3c8" stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_26" y2="51.511769" x2="292.721393" y1="51.511769" x1="310.368452" fill-opacity="null" stroke-width="1.5" fill="none"/>
+
+</svg>

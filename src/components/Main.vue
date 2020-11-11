@@ -1,5 +1,5 @@
 <template>
-  <div class="main">
+  <!-- <div class="main">
     <div class="header">
       <h3 class="header__title">
         В настоящий момент в министерстве магии работает
@@ -23,31 +23,53 @@
         </div>
       </div>
     </div>
+  </div> -->
+  <div class="main">
+    <div class="header">
+      <h3 class="header__title">
+        В настоящий момент в министерстве магии работает
+      </h3>
+    </div>
+    <div class="container">
+      <Employee />
+      <!-- <Chart /> -->
+      <div class="footer">
+        <div class="footer__name">
+          ООО “Нейрософт”, 2020 Медицинское оборудование
+        </div>
+        <div class="footer__social">
+          <div class="title">
+            Подписывайся в соц.сетях
+          </div>
+          <div class="buttons">
+            <div class="inst"></div>
+            <div class="vk"></div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 
 <script>
 import Employee from "./Employee";
-import Chart from "./Chart";
+// import Chart from "./Chart";
 
 export default {
   components: {
-    Employee,
-    Chart
+    Employee
+    // Chart
   }
 };
 </script>
 
 <style lang="scss" scoped>
 .main {
+  height: 100vh;
+  position: relative;
   .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 1300px;
-    width: 100%;
-    height: 100%;
     margin: 0 auto;
+    max-width: 1300px;
   }
   .header {
     display: flex;

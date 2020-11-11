@@ -29,7 +29,7 @@ export default {};
   left: 0;
   right: 0;
   width: 100%;
-  height: 10vh;
+  height: 8vh;
   padding: 0 20px;
   color: #fff;
   background-color: rgba($color: #353d54, $alpha: 0.85);
@@ -68,8 +68,8 @@ export default {};
       .inst,
       .vk {
         border-radius: 50%;
-        height: 50px;
-        width: 50px;
+        height: 45px;
+        width: 45px;
         background-color: #fff;
         background-repeat: no-repeat;
         background-position: center;
@@ -96,8 +96,8 @@ export default {};
         width: 100px;
         .inst,
         .vk {
-          height: 40px;
-          width: 40px;
+          height: 30px;
+          width: 30px;
         }
       }
     }

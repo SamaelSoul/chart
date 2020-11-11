@@ -1,18 +1,18 @@
 <template>
   <div class="main">
     <Employee />
-    <!-- <Chart /> -->
+    <Chart />
   </div>
 </template>
 
 <script>
 import Employee from "./Employee";
-// import Chart from "./Chart";
+import Chart from "./Chart";
 
 export default {
   components: {
-    Employee
-    // Chart
+    Employee,
+    Chart
   }
 };
 </script>
@@ -24,7 +24,6 @@ export default {
   justify-content: space-between;
   align-items: center;
   height: 75vh;
-  margin-top: 15vh;
-  // position: relative;
+  margin-top: 13vh;
 }
 </style>

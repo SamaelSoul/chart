@@ -33,7 +33,7 @@ export default {
 <style lang="scss" scoped>
 .employee {
   display: flex;
-  padding: 0 20px 0;
+  padding: 0 20px;
   max-height: 8vh;
   height: 100%;
   justify-content: space-between;

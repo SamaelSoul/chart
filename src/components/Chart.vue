@@ -196,16 +196,18 @@ export default {
   align-items: center;
   max-width: 1300px;
   width: 100%;
-  height: 100%;
-  margin: 44px auto 0px;
+  height: 65vh;
+  margin: 5vh auto 0;
   .chart-circle {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 46%;
+    align-items: center;
+    height: 100%;
+    width: 50%;
     .chart-title {
+      color: #353d54;
       text-align: center;
-      padding-left: 6vmin;
       font-weight: 500;
       font-size: 3vmin;
       line-height: 22px;
@@ -219,13 +221,13 @@ export default {
     }
   }
   .chart-description {
-    width: 58vmin;
-    margin-top: 40px;
+    width: 50%;
+    height: 100%;
     display: flex;
+    align-self: flex-end;
+    margin-left: 7vmin;
     align-items: center;
     height: 100%;
-    border-left: 3px solid #c1c3c8;
-    border-radius: 20px;
     position: relative;
     &::before {
       content: "";
@@ -234,21 +236,13 @@ export default {
       background-color: #c1c3c8;
       margin-left: -4vmin;
     }
-    @media (max-width: 1200px) {
-      .chart-description {
-        width: 50vmin;
-      }
-    }
-    @media (max-width: 985px) {
-      .chart-description {
-        width: 45vmin;
-      }
-    }
     .key-list {
       list-style: none;
-      font-size: 22px;
+      padding-left: 10px;
+      border-left: 3px solid #c1c3c8;
+      border-radius: 20px;
       li {
-        margin: 10px;
+        margin: 1.5vmin;
         color: #353d54;
         font-weight: 500;
         font-size: 2vmin;
@@ -257,12 +251,13 @@ export default {
       .shape-circle {
         display: inline-block;
         vertical-align: middle;
-        padding-top: 1vmin;
         text-align: center;
-        width: 4vmin;
-        height: 4vmin;
+        padding-top: 7px;
+        text-align: center;
+        width: 35px;
+        height: 35px;
         border-radius: 50%;
-        font-size: 1.8vmin;
+        font-size: 1.5vmin;
         color: #fff;
       }
       .department1 {
@@ -295,6 +290,41 @@ export default {
       .department10 {
         background-color: #ff7979;
       }
+      @media (max-width: 990px) {
+        li {
+          font-size: 12px;
+        }
+        .shape-circle {
+          padding-top: 5px;
+          width: 30px;
+          height: 30px;
+        }
+      }
+      @media (max-width: 800px) {
+        li {
+          margin: 1vmin;
+          font-size: 12px;
+          display: inline-block;
+        }
+        .shape-circle {
+          padding-top: 2px;
+          width: 25px;
+          height: 25px;
+          font-size: 10px;
+        }
+      }
+    }
+  }
+  @media (max-width: 800px) {
+    flex-direction: column;
+    .chart-description {
+      width: 90%;
+    }
+    .key-list {
+      display: flex;
+      flex-flow: row wrap;
+      margin-right: 20px;
+      margin-top: 20px;
     }
   }
 }

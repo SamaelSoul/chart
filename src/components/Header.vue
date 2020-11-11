@@ -18,7 +18,7 @@ export default {};
   left: 0;
   right: 0;
   width: 100%;
-  height: 10vh;
+  height: 12vh;
   padding: 0 20px;
   justify-content: center;
   align-items: center;
@@ -29,6 +29,11 @@ export default {};
     font-size: 1.8vmax;
     line-height: 34px;
     text-align: center;
+  }
+  @media (max-width: 1000px) {
+    &__title {
+      font-size: 2.5vmax;
+    }
   }
 }
 </style>

@@ -46,5 +46,20 @@
     "> 1%",
     "last 2 versions",
     "not dead"
-  ]
+  ],
+  "description": "## Project setup ``` npm install ```",
+  "main": "babel.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SamaelSoul/chart.git"
+  },
+  "keywords": [
+    "neurosoft"
+  ],
+  "author": "Alexey Morozov (aleksmtrade@yandex.ru)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SamaelSoul/chart/issues"
+  },
+  "homepage": "https://github.com/SamaelSoul/chart#readme"
 }

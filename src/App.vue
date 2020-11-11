@@ -1,36 +1,13 @@
 <template>
   <div id="app">
-    <!-- <Main />
-    <div class="header">
-      <h3 class="header__title">
-        В настоящий момент в министерстве магии работает
-      </h3>
-    </div>
-    <div class="container">
-      <Employee />
-      <Chart />
-      <div class="footer">
-        <div class="footer__name">
-          ООО “Нейрософт”, 2020 Медицинское оборудование
-        </div>
-        <div class="footer__social">
-          <div class="title">
-            Подписывайся в соц.сетях
-          </div>
-          <div class="buttons">
-            <div class="inst"></div>
-            <div class="vk"></div>
-          </div>
-        </div>
-      </div>
-    </div> -->
     <Header />
+    <Main />
     <Footer />
   </div>
 </template>
 
 <script>
-// import Main from "./components/Main";
+import Main from "./components/Main";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 
@@ -38,8 +15,8 @@ export default {
   name: "App",
   components: {
     Header,
-    Footer
-    // Main
+    Footer,
+    Main
   }
 };
 </script>

@@ -1,22 +1,20 @@
 <template>
   <div class="employee">
-    <div class="container">
-      <div class="col">
-        <div class="col-value">{{ employee.total }}</div>
-        <div class="col-title">Сотрудников в штате</div>
-      </div>
-      <div class="col">
-        <div class="col-value">{{ employee.males }}</div>
-        <div class="col-title">Мужчин</div>
-      </div>
-      <div class="col">
-        <div class="col-value">{{ employee.females }}</div>
-        <div class="col-title">Женщин</div>
-      </div>
-      <div class="col">
-        <div class="col-value">{{ employee.couples }}</div>
-        <div class="col-title">Пар</div>
-      </div>
+    <div class="col">
+      <div class="col-value">{{ employee.total }}</div>
+      <div class="col-title">Сотрудников в штате</div>
+    </div>
+    <div class="col">
+      <div class="col-value">{{ employee.males }}</div>
+      <div class="col-title">Мужчин</div>
+    </div>
+    <div class="col">
+      <div class="col-value">{{ employee.females }}</div>
+      <div class="col-title">Женщин</div>
+    </div>
+    <div class="col">
+      <div class="col-value">{{ employee.couples }}</div>
+      <div class="col-title">Пар</div>
     </div>
   </div>
 </template>
@@ -35,42 +33,33 @@ export default {
 <style lang="scss" scoped>
 .employee {
   display: flex;
-  flex-direction: row;
-  margin-top: 120px;
   padding: 0 20px 0;
-  .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 1000px;
-    width: 100%;
-    height: 100%;
-    margin: 0 auto;
-  }
+  max-height: 8vh;
+  height: 100%;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1100px;
+  width: 100%;
+  margin: 0 auto;
   .col {
     &-value {
       color: #2b78fe;
-      font-size: 80px;
+      font-size: 8vmin;
       font-weight: 900;
-      line-height: 93.75px;
+      line-height: 9vmin;
       text-align: center;
-    }
-    @media (max-width: 900px) {
-      &-value {
-        font-size: 42px;
-        font-weight: 500;
-        line-height: 50px;
-      }
-      &-title {
-        font-size: 20px;
-        line-height: 20px;
-      }
     }
     &-title {
       color: #353d54;
-      font-size: 24px;
-      line-height: 30px;
+      font-size: 2.5vmin;
+      line-height: 3vmin;
       text-align: center;
+    }
+    @media (max-width: 900px) {
+      &-title {
+        font-size: 3vmin;
+        line-height: 20px;
+      }
     }
   }
 }
